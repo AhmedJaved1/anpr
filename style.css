@@ -227,4 +227,109 @@
     .google-icon {
       margin-right: 8px;
     }
+/* Mobile Devices: up to 767px */
+@media (max-width: 767px) {
+  .hero-container {
+    margin-top: 100px;
+  }
+
+  .hero-title {
+    font-size: 1.25rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+  }
+
+  .feature-box {
+    padding: 24px 16px;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .login-container,
+  .signup-container {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .hero-section {
+    margin-top: 20rem;
+    background-position: center top;
+  }
+}
+
+/* Laptops: 768px to 1199px */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-container {
+    margin-top: 150px;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-desc {
+    font-size: 1.15rem;
+    max-width: 600px;
+  }
+
+  .feature-icon {
+    font-size: 2.25rem;
+  }
+
+  .feature-box {
+    padding: 28px 20px;
+  }
+
+  .navbar-brand img {
+    height: 65px;
+  }
+
+  .hero-section {
+    margin-top: 80rem;
+    background-position: center;
+  }
+}
+
+/* Desktop: 1200px and above */
+@media (min-width: 1200px) {
+  .hero-container {
+    margin-top: 200px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-desc {
+    font-size: 1.25rem;
+    max-width: 700px;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .feature-box {
+    padding: 32px 24px;
+  }
+
+  .navbar-brand img {
+    height: 80px;
+  }
+
+  .hero-section {
+    margin-top: 100rem;
+    background-position: center;
+  }
+}
+
   
